@@ -1,0 +1,16 @@
+.same {
+    background-color: rgba(255, 132, 169, 0.781);
+    font-family: sans-serif;
+}
+#no-2 {
+    color: blue;
+    font-size: 36px;
+}
+.diff {
+    font-size: 24px;
+}
+#no-4 {
+    background-color: rgb(123, 255, 193);
+    font-size: 24px;
+    font-weight: bold;
+}
