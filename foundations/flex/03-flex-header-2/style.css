@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  padding: 8px;
 }
 
 .profile-image {
@@ -29,7 +32,7 @@ body {
   font-style: italic;
 }
 
-button {
+.notifications {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
@@ -44,5 +47,13 @@ a {
 }
 
 ul {
+  display: flex;
+  gap: 15px;
   list-style-type: none;
+}
+.right {
+  margin-left: auto;
+  gap: 15px;
+  display: flex;
+  align-items: center;
 }
